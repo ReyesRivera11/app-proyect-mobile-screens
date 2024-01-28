@@ -1,0 +1,40 @@
+
+.contenedor-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contenedor-top{
+    display: flex;
+    justify-content: end;
+}
+.circulo-top img{
+    width: 100px;
+    margin-top: -30px;
+}
+.circulo-bottom img{
+    width: 100px;
+    margin-top: 100px;
+}
+.contenedor-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+}
+.contenedor-logo img{
+    width: 200px;
+}
+.contenedor-logo a {
+    text-decoration: none;
+    background-color: rgb(11, 179, 11);
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+

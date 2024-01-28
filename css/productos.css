@@ -1,0 +1,134 @@
+.contenedor-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.contenedor-top img{
+    width: 30px;
+}
+.logo{
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+}
+.contenedor-buscar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+}
+.btn-conf{
+    background-color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.contenedor-int{
+    background-color: rgb(221, 217, 217);
+    display: flex;
+    align-items: center;
+    width: 80%;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 4px;
+}
+.contenedor-int img{
+    width: 32px;
+}
+.contenedor-int input{
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    width: 90%;
+    height: 50%;
+    font-size: 16px;
+    margin-left: 5px;
+}
+.contenedor-int input:focus{
+    outline: none;
+}
+.contenedor-producoP{
+    background-color:#04B45F;
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.contenedor-producoP img{
+    width: 100px;
+    height: 80px;
+}
+.producto-inf button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold ;
+}
+.contenedor-producos{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* padding: 0 20px  0 20px; */
+    align-items: center;
+    gap: 20px;
+}
+.contenedor-producos img{
+    width: 150px;
+    border-radius: 20px;
+}
+.contenedor-produco{
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.text-producto{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+}
+.text-producto p{
+    padding: 0px;
+    margin: 0px;
+}
+.text-producto button{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nombreP{
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+.text-precio{
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    
+}
+.contenedor-inf{
+    display: flex;
+}
+.contenedor-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

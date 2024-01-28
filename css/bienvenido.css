@@ -1,0 +1,69 @@
+.contenedor-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.contenedor-logo img{
+    width: 200px;
+}
+.contenedor-omitir{
+    display: flex;
+    justify-content: end;
+}
+.contenedor-omitir a{
+    text-decoration: none;
+    color: black !important;
+    font-weight: bold;
+}
+
+.contenedor-info{
+    border-radius: 25px 25px 0 0;
+    padding: 20px;
+    font-weight: bold;
+    margin: -8px;
+    text-align: center;
+}
+.titulo{
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.contenedor-botones{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 15px;
+}
+.contenedor-botones .btnLogin{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.contenedor-botones .btnRegistro{
+    background-color: #04B45F;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.contenedor-botones a{
+    width: 80px;
+    text-align: center;
+}
+.contenedor-botones .btnLogin{
+    text-decoration: none;
+    font-size: 20px;
+    border: solid 2px #04B45F;
+    color: #04B45F;
+}
+
